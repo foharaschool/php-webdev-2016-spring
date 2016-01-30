@@ -1,0 +1,21 @@
+[30-Jan-2016 22:16:18 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/labs/wk2/ch02/aliens/report.php on line 36
+[30-Jan-2016 22:16:18 UTC] PHP Stack trace:
+[30-Jan-2016 22:16:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk2/ch02/aliens/report.php:0
+[30-Jan-2016 22:16:47 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/labs/wk2/ch02/aliens/report.php on line 36
+[30-Jan-2016 22:16:47 UTC] PHP Stack trace:
+[30-Jan-2016 22:16:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk2/ch02/aliens/report.php:0
+[30-Jan-2016 22:21:05 UTC] PHP Fatal error:  Call to undefined function mysqli_send_query() in /home/ubuntu/workspace/labs/wk2/ch02/aliens/report.php on line 33
+[30-Jan-2016 22:21:05 UTC] PHP Stack trace:
+[30-Jan-2016 22:21:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk2/ch02/aliens/report.php:0
+[30-Jan-2016 22:24:28 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/labs/wk2/ch02/aliens/report.php on line 36
+[30-Jan-2016 22:24:28 UTC] PHP Stack trace:
+[30-Jan-2016 22:24:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk2/ch02/aliens/report.php:0
+[30-Jan-2016 22:25:44 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/labs/wk2/ch02/aliens/report.php on line 34
+[30-Jan-2016 22:25:44 UTC] PHP Stack trace:
+[30-Jan-2016 22:25:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk2/ch02/aliens/report.php:0
+[30-Jan-2016 22:27:13 UTC] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/ubuntu/workspace/labs/wk2/ch02/aliens/report.php on line 31
+[30-Jan-2016 22:27:13 UTC] PHP Stack trace:
+[30-Jan-2016 22:27:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk2/ch02/aliens/report.php:0
+[30-Jan-2016 22:31:45 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/labs/wk2/ch02/aliens/report.php on line 34
+[30-Jan-2016 22:31:45 UTC] PHP Stack trace:
+[30-Jan-2016 22:31:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk2/ch02/aliens/report.php:0
