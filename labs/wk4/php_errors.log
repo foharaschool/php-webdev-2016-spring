@@ -1,0 +1,35 @@
+[06-Feb-2016 17:26:31 UTC] PHP Fatal error:  Undefined constant 'n' in /home/ubuntu/workspace/labs/wk4/ch04/sendemail.php on line 54
+[06-Feb-2016 17:26:31 UTC] PHP Stack trace:
+[06-Feb-2016 17:26:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk4/ch04/sendemail.php:0
+[06-Feb-2016 20:48:32 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php on line 39
+[06-Feb-2016 20:48:32 UTC] PHP Stack trace:
+[06-Feb-2016 20:48:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php:0
+[06-Feb-2016 20:48:32 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php:39
+[06-Feb-2016 20:48:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php on line 42
+[06-Feb-2016 20:48:32 UTC] PHP Stack trace:
+[06-Feb-2016 20:48:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php:0
+[06-Feb-2016 20:48:32 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php:42
+[06-Feb-2016 20:48:32 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php on line 50
+[06-Feb-2016 20:48:32 UTC] PHP Stack trace:
+[06-Feb-2016 20:48:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php:0
+[06-Feb-2016 20:48:32 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php:50
+[06-Feb-2016 20:51:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php on line 42
+[06-Feb-2016 20:51:33 UTC] PHP Stack trace:
+[06-Feb-2016 20:51:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php:0
+[06-Feb-2016 20:51:33 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php:42
+[06-Feb-2016 20:51:33 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php on line 50
+[06-Feb-2016 20:51:33 UTC] PHP Stack trace:
+[06-Feb-2016 20:51:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php:0
+[06-Feb-2016 20:51:33 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php:50
+[06-Feb-2016 20:54:12 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php on line 39
+[06-Feb-2016 20:54:12 UTC] PHP Stack trace:
+[06-Feb-2016 20:54:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php:0
+[06-Feb-2016 20:54:12 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php:39
+[06-Feb-2016 21:01:31 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php on line 19
+[06-Feb-2016 21:19:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php on line 20
+[06-Feb-2016 21:19:48 UTC] PHP Stack trace:
+[06-Feb-2016 21:19:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php:0
+[06-Feb-2016 21:22:56 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/labs/wk4/ch04/addemail.php on line 12
+[06-Feb-2016 21:22:56 UTC] PHP Stack trace:
+[06-Feb-2016 21:22:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk4/ch04/addemail.php:0
+[06-Feb-2016 21:22:56 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk4/ch04/addemail.php:12

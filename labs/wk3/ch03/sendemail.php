@@ -6,10 +6,12 @@
 </head>
 <body>
     <?php
+        // Initialize variables
         $from = 'fohara@madisoncollege.edu';
         $subject = $_POST['subject'];
         $message = $_POST['elvismail'];
         
+        // connect to db
         $dbc = mysqli_connect('localhost', 'root', '', 'elvis_store')
                 or die('Error conecting to server');
         

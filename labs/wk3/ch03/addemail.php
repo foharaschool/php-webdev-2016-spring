@@ -13,7 +13,7 @@
         $dbc = mysqli_connect('localhost', 'root', '', 'elvis_store')
                 or die('There was a problem connecting to the database');
         
-        $query = "INSERT INTO email_list " .
+        $query = "INSERT INTO email_list(first_name, last_name, email) " .
                 "VALUES('$first_name', '$last_name', '$email')";
                 
         $result = mysqli_query($dbc, $query)
