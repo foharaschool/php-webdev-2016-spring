@@ -34,7 +34,7 @@
             $result = mysqli_query($dbc, $query)
                     or die('Error querying database.');
             
-            // write email list to page
+            // Write email list to page
             while($row = mysqli_fetch_array($result)) {
                 echo '<input type="checkbox" value="' . $row['id'] . '" name="todelete[]" />';
                 echo $row['first_name'];
