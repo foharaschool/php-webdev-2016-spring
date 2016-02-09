@@ -15,21 +15,37 @@
 <?php
     // Collect inputs from form if submitted
     if(isset($_POST['submit'])) {
-        // Set variables
+        // Set variables, inputs in array for easier handling
         $output_form = false;
-        $person_name = $_POST['person-name'];
-        $ailment = $_POST['ailment'];
-        $noun1 = $_POST['noun1'];
-        $bodypart1 = $_POST['bodypart1'];
-        $adjective1 = $_POST['adjective1'];
-        $bodypart2 = $_POST['bodypart2'];
-        $noun2 = $_POST['noun2'];
-        $medicine = $_POST['medicine'];
-        $fav_drink = $_POST['fav-drink'];
-        $noun3 = $_POST['noun3'];
+        $user_inputs = array(
+                $person_name = $_POST['person-name'],
+                $ailment = $_POST['ailment'],
+                $noun1 = $_POST['noun1'],
+                $bodypart1 = $_POST['bodypart1'],
+                $adjective1 = $_POST['adjective1'],
+                $bodypart2 = $_POST['bodypart2'],
+                $noun2 = $_POST['noun2'],
+                $medicine = $_POST['medicine'],
+                $fav_drink = $_POST['fav-drink'],
+                $noun3 = $_POST['noun3']);
+        
+        // Validate submission
+        $everything_set = true;
+        foreach($user_inputs as $input) {
+            if(empty($input)) {
+                $everything_set = false;
+            }
+        }
+        if($everything_set) {
+            echo 'All inputs provided';
+        } else {
+            echo 'You forgot to enter an input.  All fields required';
+            $output_form = true;
+        }
+            
         
         // Collect and store form submission
-        // Validate submission
+        
         // Build story iterations and insert stored information
     } else {
         $output_form = true;
