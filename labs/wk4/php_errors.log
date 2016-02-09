@@ -33,3 +33,10 @@
 [06-Feb-2016 21:22:56 UTC] PHP Stack trace:
 [06-Feb-2016 21:22:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk4/ch04/addemail.php:0
 [06-Feb-2016 21:22:56 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk4/ch04/addemail.php:12
+[09-Feb-2016 00:25:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php on line 22
+[09-Feb-2016 00:25:17 UTC] PHP Stack trace:
+[09-Feb-2016 00:25:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php:0
+[09-Feb-2016 00:27:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php on line 22
+[09-Feb-2016 00:27:59 UTC] PHP Stack trace:
+[09-Feb-2016 00:27:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php:0
+[09-Feb-2016 00:34:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/labs/wk4/ch04/removeemail.php on line 55

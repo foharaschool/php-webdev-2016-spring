@@ -69,9 +69,7 @@
     else {
         $output_form = true;
     }
-?>
 
-<?php
     // Check flag to output form
     if ($output_form) {
 ?>

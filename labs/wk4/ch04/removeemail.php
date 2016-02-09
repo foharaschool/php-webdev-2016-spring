@@ -18,13 +18,19 @@
     
     // Remove from database if form has been submitted
     if(isset($_POST['submit'])) {
-        // Run delete query on $delete_list
-        foreach($_POST['todelete'] as $delete_id) {
-            $query = "DELETE FROM email_list WHERE id = '$delete_id'";
-            mysqli_query($dbc, $query)
-                    or die('Error querying database.');
+        // Check that 'todelete' is set
+        if(isset($_POST['todelete'])) {
+            // Run delete query on $delete_list
+            foreach($_POST['todelete'] as $delete_id) {
+                $query = "DELETE FROM email_list WHERE id = '$delete_id'";
+                mysqli_query($dbc, $query)
+                        or die('Error querying database.');
+            }
+        echo 'Customer(s) removed: ' . $email;
+        } else { 
+            // echo that no customers were selected
+            echo 'No Customers selected for removal';
         }
-    echo 'Customer(s) removed: ' . $email;
     }
 ?>
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
