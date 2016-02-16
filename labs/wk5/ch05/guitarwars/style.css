@@ -1,0 +1,34 @@
+.error {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.score {
+    font-size:150%;
+    color: #36407F;
+}
+
+.scoreinfo {
+    vertical-align: top;
+    padding-right:15px;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
+
+.topscoreheader {
+    text-align: center;
+    font-size: 200%;
+    background-color: #36407F;
+    color: #FFFFFF;
+}
+
+.admin-table {
+        border-collapse: collapse;
+}
+
+.admin-table td{
+    border: 1px solid black;
+}

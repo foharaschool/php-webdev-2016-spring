@@ -1,0 +1,332 @@
+[13-Feb-2016 23:02:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/addscore.php on line 37
+[13-Feb-2016 23:33:53 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/addscore.php on line 46
+[13-Feb-2016 23:33:53 UTC] PHP Stack trace:
+[13-Feb-2016 23:33:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/addscore.php:0
+[13-Feb-2016 23:33:53 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/addscore.php:46
+[15-Feb-2016 23:24:49 UTC] PHP Parse error:  syntax error, unexpected 'screenshot' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/addscore.php on line 21
+[16-Feb-2016 00:46:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 47
+[16-Feb-2016 00:47:20 UTC] PHP Warning:  filesize(): stat failed for Koala2.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:47:20 UTC] PHP Stack trace:
+[16-Feb-2016 00:47:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:47:20 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 00:47:20 UTC] PHP Warning:  filesize(): stat failed for Penguins.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:47:20 UTC] PHP Stack trace:
+[16-Feb-2016 00:47:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:47:20 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 00:47:20 UTC] PHP Warning:  filesize(): stat failed for Koala2.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:47:20 UTC] PHP Stack trace:
+[16-Feb-2016 00:47:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:47:20 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 00:47:20 UTC] PHP Warning:  filesize(): stat failed for Koala2.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:47:20 UTC] PHP Stack trace:
+[16-Feb-2016 00:47:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:47:20 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 00:47:20 UTC] PHP Warning:  filesize(): stat failed for Koala.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:47:20 UTC] PHP Stack trace:
+[16-Feb-2016 00:47:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:47:20 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 00:47:20 UTC] PHP Warning:  filesize(): stat failed for Hydrangeas.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:47:20 UTC] PHP Stack trace:
+[16-Feb-2016 00:47:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:47:20 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 00:50:13 UTC] PHP Warning:  filesize(): stat failed for Koala2.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:50:13 UTC] PHP Stack trace:
+[16-Feb-2016 00:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:50:13 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 00:50:13 UTC] PHP Warning:  filesize(): stat failed for Penguins.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:50:13 UTC] PHP Stack trace:
+[16-Feb-2016 00:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:50:13 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 00:50:13 UTC] PHP Warning:  filesize(): stat failed for Koala2.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:50:13 UTC] PHP Stack trace:
+[16-Feb-2016 00:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:50:13 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 00:50:13 UTC] PHP Warning:  filesize(): stat failed for Koala2.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:50:13 UTC] PHP Stack trace:
+[16-Feb-2016 00:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:50:13 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 00:50:13 UTC] PHP Warning:  filesize(): stat failed for Koala.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:50:13 UTC] PHP Stack trace:
+[16-Feb-2016 00:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:50:13 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 00:50:13 UTC] PHP Warning:  filesize(): stat failed for Hydrangeas.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:50:13 UTC] PHP Stack trace:
+[16-Feb-2016 00:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:50:13 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 00:54:26 UTC] PHP Warning:  filesize(): stat failed for images/Koala2.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:54:26 UTC] PHP Stack trace:
+[16-Feb-2016 00:54:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:54:26 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 00:54:26 UTC] PHP Warning:  filesize(): stat failed for images/Penguins.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:54:26 UTC] PHP Stack trace:
+[16-Feb-2016 00:54:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:54:26 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 00:54:26 UTC] PHP Warning:  filesize(): stat failed for images/Koala2.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:54:26 UTC] PHP Stack trace:
+[16-Feb-2016 00:54:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:54:26 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 00:54:26 UTC] PHP Warning:  filesize(): stat failed for images/Koala2.jpg in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 34
+[16-Feb-2016 00:54:26 UTC] PHP Stack trace:
+[16-Feb-2016 00:54:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 00:54:26 UTC] PHP   2. filesize(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:34
+[16-Feb-2016 01:18:00 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:18:00 UTC] PHP Stack trace:
+[16-Feb-2016 01:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:18:00 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:18:00 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:18:00 UTC] PHP Stack trace:
+[16-Feb-2016 01:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:18:00 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:18:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 25
+[16-Feb-2016 01:18:00 UTC] PHP Stack trace:
+[16-Feb-2016 01:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:18:00 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:25
+[16-Feb-2016 01:18:00 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 29
+[16-Feb-2016 01:18:00 UTC] PHP Stack trace:
+[16-Feb-2016 01:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:18:00 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:29
+[16-Feb-2016 01:18:00 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 43
+[16-Feb-2016 01:18:00 UTC] PHP Stack trace:
+[16-Feb-2016 01:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:18:00 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:43
+[16-Feb-2016 01:20:52 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:20:52 UTC] PHP Stack trace:
+[16-Feb-2016 01:20:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:20:52 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:20:52 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:20:52 UTC] PHP Stack trace:
+[16-Feb-2016 01:20:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:20:52 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:20:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 25
+[16-Feb-2016 01:20:52 UTC] PHP Stack trace:
+[16-Feb-2016 01:20:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:20:52 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:25
+[16-Feb-2016 01:20:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 29
+[16-Feb-2016 01:20:52 UTC] PHP Stack trace:
+[16-Feb-2016 01:20:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:20:52 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:29
+[16-Feb-2016 01:20:52 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 43
+[16-Feb-2016 01:20:52 UTC] PHP Stack trace:
+[16-Feb-2016 01:20:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:20:52 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:43
+[16-Feb-2016 01:21:04 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:21:04 UTC] PHP Stack trace:
+[16-Feb-2016 01:21:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:21:04 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:21:04 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:21:04 UTC] PHP Stack trace:
+[16-Feb-2016 01:21:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:21:04 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:21:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 25
+[16-Feb-2016 01:21:04 UTC] PHP Stack trace:
+[16-Feb-2016 01:21:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:21:04 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:25
+[16-Feb-2016 01:21:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 29
+[16-Feb-2016 01:21:04 UTC] PHP Stack trace:
+[16-Feb-2016 01:21:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:21:04 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:29
+[16-Feb-2016 01:21:04 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 43
+[16-Feb-2016 01:21:04 UTC] PHP Stack trace:
+[16-Feb-2016 01:21:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:21:04 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:43
+[16-Feb-2016 01:22:27 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:22:27 UTC] PHP Stack trace:
+[16-Feb-2016 01:22:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:22:27 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:22:27 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:22:27 UTC] PHP Stack trace:
+[16-Feb-2016 01:22:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:22:27 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:22:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 25
+[16-Feb-2016 01:22:27 UTC] PHP Stack trace:
+[16-Feb-2016 01:22:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:22:27 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:25
+[16-Feb-2016 01:22:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 29
+[16-Feb-2016 01:22:27 UTC] PHP Stack trace:
+[16-Feb-2016 01:22:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:22:27 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:29
+[16-Feb-2016 01:22:27 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 43
+[16-Feb-2016 01:22:27 UTC] PHP Stack trace:
+[16-Feb-2016 01:22:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:22:27 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:43
+[16-Feb-2016 01:24:04 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:24:04 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:04 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:24:04 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:24:04 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:04 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:24:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 25
+[16-Feb-2016 01:24:04 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:04 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:25
+[16-Feb-2016 01:24:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 29
+[16-Feb-2016 01:24:04 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:04 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:29
+[16-Feb-2016 01:24:04 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 43
+[16-Feb-2016 01:24:04 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:04 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:43
+[16-Feb-2016 01:24:05 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:24:05 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:05 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:24:05 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:24:05 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:05 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:24:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 25
+[16-Feb-2016 01:24:05 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:05 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:25
+[16-Feb-2016 01:24:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 29
+[16-Feb-2016 01:24:05 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:05 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:29
+[16-Feb-2016 01:24:05 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 43
+[16-Feb-2016 01:24:05 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:05 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:43
+[16-Feb-2016 01:24:05 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:24:05 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:05 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:24:05 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:24:05 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:05 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:24:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 25
+[16-Feb-2016 01:24:05 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:05 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:25
+[16-Feb-2016 01:24:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 29
+[16-Feb-2016 01:24:05 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:05 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:29
+[16-Feb-2016 01:24:05 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 43
+[16-Feb-2016 01:24:05 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:05 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:43
+[16-Feb-2016 01:24:06 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:24:06 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:06 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:24:06 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:24:06 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:06 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:24:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 25
+[16-Feb-2016 01:24:06 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:06 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:25
+[16-Feb-2016 01:24:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 29
+[16-Feb-2016 01:24:06 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:06 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:29
+[16-Feb-2016 01:24:06 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 43
+[16-Feb-2016 01:24:06 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:06 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:43
+[16-Feb-2016 01:24:06 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:24:06 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:06 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:24:06 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:24:06 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:06 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:24:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 25
+[16-Feb-2016 01:24:06 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:06 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:25
+[16-Feb-2016 01:24:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 29
+[16-Feb-2016 01:24:06 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:06 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:29
+[16-Feb-2016 01:24:06 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 43
+[16-Feb-2016 01:24:06 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:06 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:43
+[16-Feb-2016 01:24:06 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:24:06 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:06 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:24:06 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:24:06 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:06 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:24:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 25
+[16-Feb-2016 01:24:06 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:06 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:25
+[16-Feb-2016 01:24:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 29
+[16-Feb-2016 01:24:06 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:06 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:29
+[16-Feb-2016 01:24:06 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 43
+[16-Feb-2016 01:24:06 UTC] PHP Stack trace:
+[16-Feb-2016 01:24:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:24:06 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:43
+[16-Feb-2016 01:27:17 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:27:17 UTC] PHP Stack trace:
+[16-Feb-2016 01:27:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:27:17 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:27:17 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:27:17 UTC] PHP Stack trace:
+[16-Feb-2016 01:27:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:27:17 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:27:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 25
+[16-Feb-2016 01:27:17 UTC] PHP Stack trace:
+[16-Feb-2016 01:27:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:27:17 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:25
+[16-Feb-2016 01:27:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 29
+[16-Feb-2016 01:27:17 UTC] PHP Stack trace:
+[16-Feb-2016 01:27:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:27:17 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:29
+[16-Feb-2016 01:27:17 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 43
+[16-Feb-2016 01:27:17 UTC] PHP Stack trace:
+[16-Feb-2016 01:27:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:27:17 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:43
+[16-Feb-2016 01:28:51 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:28:51 UTC] PHP Stack trace:
+[16-Feb-2016 01:28:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:28:51 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:28:51 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:28:51 UTC] PHP Stack trace:
+[16-Feb-2016 01:28:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:28:51 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:28:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 25
+[16-Feb-2016 01:28:51 UTC] PHP Stack trace:
+[16-Feb-2016 01:28:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:28:51 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:25
+[16-Feb-2016 01:28:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 29
+[16-Feb-2016 01:28:51 UTC] PHP Stack trace:
+[16-Feb-2016 01:28:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:28:51 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:29
+[16-Feb-2016 01:28:51 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 43
+[16-Feb-2016 01:28:51 UTC] PHP Stack trace:
+[16-Feb-2016 01:28:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:28:51 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:43
+[16-Feb-2016 01:29:17 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:29:17 UTC] PHP Stack trace:
+[16-Feb-2016 01:29:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:29:17 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:29:17 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 21
+[16-Feb-2016 01:29:17 UTC] PHP Stack trace:
+[16-Feb-2016 01:29:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:29:17 UTC] PHP   2. mysqli_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:21
+[16-Feb-2016 01:29:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 25
+[16-Feb-2016 01:29:17 UTC] PHP Stack trace:
+[16-Feb-2016 01:29:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:29:17 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:25
+[16-Feb-2016 01:29:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 29
+[16-Feb-2016 01:29:17 UTC] PHP Stack trace:
+[16-Feb-2016 01:29:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:29:17 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:29
+[16-Feb-2016 01:29:17 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 43
+[16-Feb-2016 01:29:17 UTC] PHP Stack trace:
+[16-Feb-2016 01:29:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:0
+[16-Feb-2016 01:29:17 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php:43
+[16-Feb-2016 01:44:25 UTC] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/labs/wk5/ch05/guitarwars/index.php on line 33
