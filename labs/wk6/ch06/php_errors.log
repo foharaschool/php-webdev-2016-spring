@@ -1,0 +1,30 @@
+[21-Feb-2016 20:31:26 UTC] PHP Warning:  require_once(authorizephp): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/admin.php on line 3
+[21-Feb-2016 20:31:26 UTC] PHP Stack trace:
+[21-Feb-2016 20:31:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/admin.php:0
+[21-Feb-2016 20:31:26 UTC] PHP Fatal error:  require_once(): Failed opening required 'authorizephp' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/admin.php on line 3
+[21-Feb-2016 20:31:26 UTC] PHP Stack trace:
+[21-Feb-2016 20:31:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/admin.php:0
+[21-Feb-2016 22:16:51 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php on line 19
+[21-Feb-2016 22:16:51 UTC] PHP Stack trace:
+[21-Feb-2016 22:16:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php:0
+[21-Feb-2016 22:16:51 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php:19
+[21-Feb-2016 22:16:51 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php on line 20
+[21-Feb-2016 22:16:51 UTC] PHP Stack trace:
+[21-Feb-2016 22:16:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php:0
+[21-Feb-2016 22:16:51 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php:20
+[21-Feb-2016 22:16:51 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php on line 21
+[21-Feb-2016 22:16:51 UTC] PHP Stack trace:
+[21-Feb-2016 22:16:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php:0
+[21-Feb-2016 22:16:51 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php:21
+[21-Feb-2016 22:17:22 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php on line 19
+[21-Feb-2016 22:17:22 UTC] PHP Stack trace:
+[21-Feb-2016 22:17:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php:0
+[21-Feb-2016 22:17:22 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php:19
+[21-Feb-2016 22:17:22 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php on line 20
+[21-Feb-2016 22:17:22 UTC] PHP Stack trace:
+[21-Feb-2016 22:17:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php:0
+[21-Feb-2016 22:17:22 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php:20
+[21-Feb-2016 22:17:22 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php on line 21
+[21-Feb-2016 22:17:22 UTC] PHP Stack trace:
+[21-Feb-2016 22:17:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php:0
+[21-Feb-2016 22:17:22 UTC] PHP   2. mysqli_real_escape_string(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk6/ch06/guitarwars/addscore.php:21
