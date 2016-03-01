@@ -36,14 +36,12 @@
 
                 mysqli_close($dbc);
                 exit();
-            }
-            else {
+            } else {
                 // An account already exists for this username, so display an error message
                 echo '<p class="error">An account already exists for this username. Please use a different address.</p>';
                 $username = "";
             }
-        }
-        else {
+        } else {
             echo '<p class="error">You must enter all of the sign-up data, including the desired password twice.</p>';
         }
     }

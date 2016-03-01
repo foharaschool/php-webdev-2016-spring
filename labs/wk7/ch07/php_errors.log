@@ -1,1 +1,5 @@
 [01-Mar-2016 02:39:48 UTC] PHP Parse error:  syntax error, unexpected '')</a><br />'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/labs/wk7/ch07/mismatch/index.php on line 31
+[01-Mar-2016 03:10:47 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/labs/wk7/ch07/mismatch/editprofile.php on line 51
+[01-Mar-2016 03:10:47 UTC] PHP Stack trace:
+[01-Mar-2016 03:10:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk7/ch07/mismatch/editprofile.php:0
+[01-Mar-2016 03:10:47 UTC] PHP   2. getimagesize(*uninitialized*) /home/ubuntu/workspace/labs/wk7/ch07/mismatch/editprofile.php:51
