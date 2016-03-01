@@ -14,7 +14,7 @@
     require_once('appvars.php');
     require_once('connectvars.php');
     
-    if (isset($_POST['submit'])) {
+    if(isset($_POST['submit'])) {
         // Connect to the database -- MOVED UP TO ACCOMODATE INPUT VALIDATION
         $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
         
@@ -25,7 +25,7 @@
         $screenshot_type = $_FILES['screenshot']['type'];
         $screenshot_size = $_FILES['screenshot']['size'];
 
-        if (!empty($name) && !empty($score) && is_numeric($score) && !empty($screenshot)) {
+        if(!empty($name) && !empty($score) && is_numeric($score) && !empty($screenshot)) {
             if((($screenshot_type == 'image/gif') || ($screenshot_type == 'image/jpeg') || ($screenshot_type == 'image/pjpeg') || ($screenshot_type == 'image/png'))
                     && ($screenshot_size > 0) && ($screenshot_size <= GW_MAXFILESIZE)) {
                 // Move file to target upload folder

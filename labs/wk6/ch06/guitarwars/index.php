@@ -14,8 +14,8 @@
 <?php
 
     // Include appvars and connectvars
-        require_once('appvars.php');
-        require_once('connectvars.php');
+    require_once('appvars.php');
+    require_once('connectvars.php');
 
     // Connect to the database 
     $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
@@ -27,7 +27,7 @@
     // Loop through the array of score data, formatting it as HTML 
     echo '<table>';
     $i = 0;
-    while ($row = mysqli_fetch_array($data)) { 
+    while($row = mysqli_fetch_array($data)) { 
         // Display the score data
         if($i == 0) {
             echo '<tr><th colspan="2" class="topscoreheader">Top Score: ' . $row['score'] . '</th></tr>';
