@@ -3,3 +3,7 @@
 [01-Mar-2016 03:10:47 UTC] PHP Stack trace:
 [01-Mar-2016 03:10:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk7/ch07/mismatch/editprofile.php:0
 [01-Mar-2016 03:10:47 UTC] PHP   2. getimagesize(*uninitialized*) /home/ubuntu/workspace/labs/wk7/ch07/mismatch/editprofile.php:51
+[20-Mar-2016 18:36:07 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/labs/wk7/ch07/mismatch/editprofile.php on line 53
+[20-Mar-2016 18:36:07 UTC] PHP Stack trace:
+[20-Mar-2016 18:36:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk7/ch07/mismatch/editprofile.php:0
+[20-Mar-2016 18:36:07 UTC] PHP   2. getimagesize(*uninitialized*) /home/ubuntu/workspace/labs/wk7/ch07/mismatch/editprofile.php:53
