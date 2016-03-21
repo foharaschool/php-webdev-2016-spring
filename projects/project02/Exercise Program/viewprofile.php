@@ -25,7 +25,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <div class="container">
+    <div class="container profile">
         <div class="col-md-4">
         <h3>Exercise Logger - View Profile</h3>
 
@@ -57,18 +57,18 @@
     if (mysqli_num_rows($data) == 1) {
         // The user row was found so display the user data
         $row = mysqli_fetch_array($data);
-        echo '<table>';
+        
         if (!empty($row['username'])) {
-            echo '<tr><td class="label">Username:</td><td>' . $row['username'] . '</td></tr>';
+            echo '<h4>Username: ' . $row['username'] . '</h4>';
         }
         if (!empty($row['first_name'])) {
-            echo '<tr><td class="label">First name:</td><td>' . $row['first_name'] . '</td></tr>';
+            echo '<h4>First name: ' . $row['first_name'] . '</h4>';
         }
         if (!empty($row['last_name'])) {
-            echo '<tr><td class="label">Last name:</td><td>' . $row['last_name'] . '</td></tr>';
+            echo '<h4>Last name: ' . $row['last_name'] . '</h4>';
         }
         if (!empty($row['gender'])) {
-            echo '<tr><td class="label">Gender:</td><td>';
+            echo '<h4>Gender: ';
             if ($row['gender'] == 'M') {
                 echo 'Male';
             }
@@ -79,28 +79,28 @@
                 echo '?';
             }
             
-            echo '</td></tr>';
+            echo '</h4>';
         }
         if (!empty($row['birthdate'])) {
             if (!isset($_GET['user_id']) || ($user_id == $_GET['user_id'])) {
                 // Show the user their own birthdate
-                echo '<tr><td class="label">Birthdate:</td><td>' . $row['birthdate'] . '</td></tr>';
+                echo '<h4>Birthdate: ' . $row['birthdate'] . '</h4>';
             }
             else {
                 // Show only the birth year for everyone else
                 list($year, $month, $day) = explode('-', $row['birthdate']);
-                echo '<tr><td class="label">Year born:</td><td>' . $year . '</td></tr>';
+                echo '<h4>Year born:</td><td>' . $year . '</h4>';
             }
         }
         if (!empty($row['weight'])) {
-            echo '<tr><td class="label">Weight:</td><td>' . $row['weight'] . '</td></tr>';
+            echo '<h4>Weight: ' . $row['weight'] . '</h4>';
         }
         if (!empty($row['picture'])) {
-            echo '<tr><td class="label">Picture:</td><td><img src="' . MM_UPLOADPATH . $row['picture'] .
-                '" alt="Profile Picture" /></td></tr>';
+            echo '<img src="' . MM_UPLOADPATH . $row['picture'] .
+                '" alt="Profile Picture" />';
         }
-        echo '</table>';
-        if (!isset($_GET['user_id']) || ($user_id == $_GET['user_id'])) {
+
+        if (isset($_GET['user_id']) || ($user_id == $_GET['user_id'])) {
             echo '<p>Would you like to <a href="editprofile.php">edit your profile</a>?</p>';
             echo '<p>Or, <a href="logworkout.php">log an exercise</a>';
         }
@@ -126,7 +126,7 @@
                     // Retrieve the user data from MySQL
                     $user_id = $_GET['user_id'];
                     $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-                    $query = "SELECT id, exercise_date, exercise_type, time_in_minutes, heartrate, calories_burned FROM exercise_log WHERE user_id = $user_id ORDER BY exercise_date DESC LIMIT 15";
+                    $query = "SELECT id, exercise_date, exercise_type, time_in_minutes, heartrate, calories_burned FROM exercise_log WHERE user_id = $user_id ORDER BY exercise_date DESC, id DESC LIMIT 15";
                     $data = mysqli_query($dbc, $query)
                             or die("There is a problem with your exercise log query");
                 

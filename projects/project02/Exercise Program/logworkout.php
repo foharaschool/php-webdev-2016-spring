@@ -89,7 +89,7 @@
                     or die("There is a problem with your query");
 
             // Confirm success with the user
-            echo '<p>Your exercise has been successfully logged. Would you like to <a href="viewprofile.php">view your profile</a>?</p>';
+            echo '<p>Your exercise has been successfully logged. Would you like to <a href="viewprofile.php?user_id=' . $_SESSION['user_id'] . '">view your profile</a>?</p>';
 
             mysqli_close($dbc);
             exit();

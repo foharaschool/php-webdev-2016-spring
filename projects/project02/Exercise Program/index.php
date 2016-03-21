@@ -33,7 +33,7 @@
     if(isset($_SESSION['username'])) {
         // Generate the navigation menu if login isset
         echo '<h4>Welcome, ' . $_SESSION['username'] . '</h4>';
-        echo '&ccupssm; <a href="viewprofile.php">View Profile</a><br />';
+        echo '&ccupssm; <a href="viewprofile.php?user_id=' . $_SESSION['user_id'] . '">View Profile</a><br />';
         echo '&ccupssm; <a href="editprofile.php">Edit Profile</a><br />';
         echo '&ccupssm; <a href="logout.php">Log Out (' . $_SESSION['username'] . ')</a><br />';
     } else {
