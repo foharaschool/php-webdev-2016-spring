@@ -1,1 +1,49 @@
 [20-Mar-2016 21:23:46 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/projects/project02/Exercise Program/logworkout.php on line 104
+[21-Mar-2016 02:03:44 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php on line 129
+[21-Mar-2016 02:03:44 UTC] PHP Stack trace:
+[21-Mar-2016 02:03:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:0
+[21-Mar-2016 02:03:44 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:129
+[21-Mar-2016 02:03:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php on line 132
+[21-Mar-2016 02:03:44 UTC] PHP Stack trace:
+[21-Mar-2016 02:03:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:0
+[21-Mar-2016 02:03:44 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:132
+[21-Mar-2016 02:03:44 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php on line 140
+[21-Mar-2016 02:03:44 UTC] PHP Stack trace:
+[21-Mar-2016 02:03:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:0
+[21-Mar-2016 02:03:44 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:140
+[21-Mar-2016 02:05:24 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php on line 129
+[21-Mar-2016 02:05:24 UTC] PHP Stack trace:
+[21-Mar-2016 02:05:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:0
+[21-Mar-2016 02:05:24 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:129
+[21-Mar-2016 02:05:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php on line 132
+[21-Mar-2016 02:05:24 UTC] PHP Stack trace:
+[21-Mar-2016 02:05:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:0
+[21-Mar-2016 02:05:24 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:132
+[21-Mar-2016 02:05:24 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php on line 140
+[21-Mar-2016 02:05:24 UTC] PHP Stack trace:
+[21-Mar-2016 02:05:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:0
+[21-Mar-2016 02:05:24 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:140
+[21-Mar-2016 02:12:59 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php on line 129
+[21-Mar-2016 02:12:59 UTC] PHP Stack trace:
+[21-Mar-2016 02:12:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:0
+[21-Mar-2016 02:12:59 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:129
+[21-Mar-2016 02:12:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php on line 132
+[21-Mar-2016 02:12:59 UTC] PHP Stack trace:
+[21-Mar-2016 02:12:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:0
+[21-Mar-2016 02:12:59 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:132
+[21-Mar-2016 02:12:59 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php on line 140
+[21-Mar-2016 02:12:59 UTC] PHP Stack trace:
+[21-Mar-2016 02:12:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:0
+[21-Mar-2016 02:12:59 UTC] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:140
+[21-Mar-2016 02:14:55 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php on line 129
+[21-Mar-2016 02:14:55 UTC] PHP Stack trace:
+[21-Mar-2016 02:14:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:0
+[21-Mar-2016 02:14:55 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:129
+[21-Mar-2016 02:15:25 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php on line 129
+[21-Mar-2016 02:15:25 UTC] PHP Stack trace:
+[21-Mar-2016 02:15:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:0
+[21-Mar-2016 02:15:25 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:129
+[21-Mar-2016 02:16:20 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php on line 129
+[21-Mar-2016 02:16:20 UTC] PHP Stack trace:
+[21-Mar-2016 02:16:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:0
+[21-Mar-2016 02:16:20 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:129

@@ -123,7 +123,24 @@
                 </tr>
                 <?php
                     // Display workout history
-                    
+                    // Retrieve the user data from MySQL
+                    $user_id = $_GET['user_id'];
+                    $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+                    $query = "SELECT id, exercise_date, exercise_type, time_in_minutes, heartrate, calories_burned FROM exercise_log WHERE user_id = $user_id ORDER BY exercise_date DESC LIMIT 15";
+                    $data = mysqli_query($dbc, $query)
+                            or die("There is a problem with your exercise log query");
+                
+                    // Loop through the array of user data, filling out the table
+                    while ($row = mysqli_fetch_array($data)) {
+                        echo '<tr><td>' . $row['exercise_date']
+                                . '</td><td>' . $row['exercise_type']
+                                . '</td><td>' . $row['time_in_minutes']
+                                . '</td><td>' . $row['heartrate']
+                                . '</td><td>' . $row['calories_burned']
+                                . '</td><td><a href="removeworkout.php?id=' . $row['id'] . '&amp;user_id=' . $user_id . '"><span class="glyphicon glyphicon-trash"></span></a>'
+                                . '</td></tr>';
+                    }
+                    mysqli_close($dbc);
                 ?>
             </table>
         </div>
