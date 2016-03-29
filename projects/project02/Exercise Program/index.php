@@ -13,8 +13,11 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <h3>The Exercise Logger - There are always more calories to burn!</h3>
-
+    <div class="container">
+        <div class="col-md-10 col-md-offset-1">
+            <h1>The Exercise Logger - There are always more calories to burn!</h1>
+        </div>
+        <div class="col-md-10 col-md-offset-1">
 <?php
     require_once('appvars.php');
     require_once('connectvars.php');
@@ -30,17 +33,19 @@
     }
 
     // Generate navigation menu based on login check
+    echo '<ul class="nav">';
     if(isset($_SESSION['username'])) {
         // Generate the navigation menu if login isset
         echo '<h4>Welcome, ' . $_SESSION['username'] . '</h4>';
-        echo '&ccupssm; <a href="viewprofile.php?user_id=' . $_SESSION['user_id'] . '">View Profile</a><br />';
-        echo '&ccupssm; <a href="editprofile.php">Edit Profile</a><br />';
-        echo '&ccupssm; <a href="logout.php">Log Out (' . $_SESSION['username'] . ')</a><br />';
+        echo '<li class="col-md-4"> <a href="viewprofile.php?user_id=' . $_SESSION['user_id'] . '">View Profile</a></li>';
+        echo '<li class="col-md-4"><a href="editprofile.php">Edit Profile</a></li>';
+        echo '<li class="col-md-4"><a href="logout.php">Log Out (' . $_SESSION['username'] . ')</a></li>';
     } else {
-        echo '&ccupssm; <a href="login.php">Log In</a><br />';
-        echo '&ccupssm; <a href="signup.php">Sign Up</a><br />';
+        echo '<li class="col-md-6"><a href="login.php">Log In</a></li>';
+        echo '<li class="col-md-6"><a href="signup.php">Sign Up</a></li>';
     }
-
+    echo '</ul>';
+    echo '</div>';
     // Connect to the database 
     $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME); 
 
@@ -49,8 +54,9 @@
     $data = mysqli_query($dbc, $query);
 
     // Loop through the array of user data, formatting it as HTML
+    echo '<div class="col-md-4 col-md-offset-1">';
     echo '<h4>Latest members:</h4>';
-    echo '<table>';
+    echo '<table class="table">';
     while ($row = mysqli_fetch_array($data)) {
         if (is_file(MM_UPLOADPATH . $row['picture']) && filesize(MM_UPLOADPATH . $row['picture']) > 0) {
             echo '<tr><td><img src="' . MM_UPLOADPATH . $row['picture'] . '" alt="' . $row['first_name'] . '" /></td>';
@@ -64,9 +70,10 @@
         }
     }
     echo '</table>';
+    echo '</div>';
 
     mysqli_close($dbc);
 ?>
-
+    </div>
 </body> 
 </html>

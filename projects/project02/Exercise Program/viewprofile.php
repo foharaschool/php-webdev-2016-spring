@@ -100,7 +100,7 @@
                 '" alt="Profile Picture" />';
         }
 
-        if (isset($_GET['user_id']) || ($user_id == $_GET['user_id'])) {
+        if ((isset($_GET['user_id']) || ($user_id == $_GET['user_id'])) && ($_SESSION['user_id'] == $_GET['user_id'])) {
             echo '<p>Would you like to <a href="editprofile.php">edit your profile</a>?</p>';
             echo '<p>Or, <a href="logworkout.php">log an exercise</a>';
         }
@@ -113,7 +113,7 @@
         </div>
         <div class="col-md-8">
             <h3> Workout History</h3>
-            <table class="table-bordered">
+            <table class="table-striped">
                 <tr>
                     <th>Date</th>
                     <th>Type</th>
@@ -136,9 +136,11 @@
                                 . '</td><td>' . $row['exercise_type']
                                 . '</td><td>' . $row['time_in_minutes']
                                 . '</td><td>' . $row['heartrate']
-                                . '</td><td>' . $row['calories_burned']
-                                . '</td><td><a href="removeworkout.php?id=' . $row['id'] . '&amp;user_id=' . $user_id . '"><span class="glyphicon glyphicon-trash"></span></a>'
-                                . '</td></tr>';
+                                . '</td><td>' . $row['calories_burned'];
+                                if($user_id == $_SESSION['user_id']){
+                                    echo'</td><td><a href="removeworkout.php?id=' . $row['id'] . '&amp;user_id=' . $user_id . '"><span class="glyphicon glyphicon-trash"></span></a>';
+                                }
+                                echo '</td></tr>';
                     }
                     mysqli_close($dbc);
                 ?>

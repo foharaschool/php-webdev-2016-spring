@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+    <div class="container">
     <h3>Exercise Logger - Edit Profile</h3>
 
 <?php
@@ -101,12 +102,13 @@
                 }
                 else {
                     $query = "UPDATE exercise_user SET first_name = '$first_name', last_name = '$last_name', gender = '$gender', " .
-                        " birthdate = '$birthdate', weight = '$weight', WHERE user_id = '" . $_SESSION['user_id'] . "'";
+                        " birthdate = '$birthdate', weight = '$weight' WHERE user_id = '" . $_SESSION['user_id'] . "'";
                 }
-                mysqli_query($dbc, $query);
+                mysqli_query($dbc, $query)
+                    or die("There is a problem with your profile update query");
 
                 // Confirm success with the user
-                echo '<p>Your profile has been successfully updated. Would you like to <a href="viewprofile.php">view your profile</a>?</p>';
+                echo '<p>Your profile has been successfully updated. Would you like to <a href="viewprofile.php?user_id=' . $_SESSION['user_id'] . '">view your profile</a>?</p>';
 
                 mysqli_close($dbc);
                 exit();
@@ -164,5 +166,6 @@
         </fieldset>
         <input type="submit" value="Save Profile" name="submit" />
     </form>
+    </div>
 </body> 
 </html>

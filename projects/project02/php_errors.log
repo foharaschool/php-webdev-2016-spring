@@ -47,3 +47,5 @@
 [21-Mar-2016 02:16:20 UTC] PHP Stack trace:
 [21-Mar-2016 02:16:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:0
 [21-Mar-2016 02:16:20 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/projects/project02/Exercise Program/viewprofile.php:129
+[21-Mar-2016 21:33:49 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/ubuntu/workspace/projects/project02/Exercise Program/index.php on line 35
+[21-Mar-2016 21:48:37 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/projects/project02/Exercise Program/index.php on line 37

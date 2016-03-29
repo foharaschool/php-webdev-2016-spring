@@ -1,2 +1,51 @@
 [31-Jan-2016 02:50:50 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/labs/wk3/addemail.php on line 25
 [31-Jan-2016 02:51:23 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/labs/wk3/addemail.php on line 25
+[29-Mar-2016 00:36:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/labs/wk10/MadLibs.php on line 120
+[29-Mar-2016 00:36:33 UTC] PHP Stack trace:
+[29-Mar-2016 00:36:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk10/mad-lib.php:0
+[29-Mar-2016 00:36:33 UTC] PHP   2. MadLibs->runInsert() /home/ubuntu/workspace/labs/wk10/mad-lib.php:68
+[29-Mar-2016 00:36:33 UTC] PHP   3. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk10/MadLibs.php:120
+[29-Mar-2016 00:38:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/labs/wk10/mad-lib.php on line 137
+[29-Mar-2016 00:38:13 UTC] PHP Stack trace:
+[29-Mar-2016 00:38:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk10/mad-lib.php:0
+[29-Mar-2016 00:38:13 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk10/mad-lib.php:137
+[29-Mar-2016 00:41:57 UTC] PHP Fatal error:  Call to undefined function setStory() in /home/ubuntu/workspace/labs/wk10/MadLibs.php on line 130
+[29-Mar-2016 00:41:57 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk10/mad-lib.php:0
+[29-Mar-2016 00:41:57 UTC] PHP   2. MadLibs->runInsert() /home/ubuntu/workspace/labs/wk10/mad-lib.php:67
+[29-Mar-2016 00:42:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/labs/wk10/mad-lib.php on line 137
+[29-Mar-2016 00:42:38 UTC] PHP Stack trace:
+[29-Mar-2016 00:42:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk10/mad-lib.php:0
+[29-Mar-2016 00:42:38 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk10/mad-lib.php:137
+[29-Mar-2016 01:03:27 UTC] PHP Fatal error:  Call to undefined method MadLibs::storyFetch() in /home/ubuntu/workspace/labs/wk10/mad-lib.php on line 144
+[29-Mar-2016 01:03:27 UTC] PHP Stack trace:
+[29-Mar-2016 01:03:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk10/mad-lib.php:0
+[28-Mar-2016 20:04:18 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/labs/wk10/mad-lib.php on line 147
+[28-Mar-2016 20:04:18 America/Chicago] PHP Stack trace:
+[28-Mar-2016 20:04:18 America/Chicago] PHP   1. {main}() /home/ubuntu/workspace/labs/wk10/mad-lib.php:0
+[28-Mar-2016 20:04:18 America/Chicago] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/labs/wk10/mad-lib.php:147
+[28-Mar-2016 20:05:23 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/labs/wk10/mad-lib.php on line 147
+[28-Mar-2016 20:05:23 America/Chicago] PHP Stack trace:
+[28-Mar-2016 20:05:23 America/Chicago] PHP   1. {main}() /home/ubuntu/workspace/labs/wk10/mad-lib.php:0
+[28-Mar-2016 20:05:23 America/Chicago] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/labs/wk10/mad-lib.php:147
+[29-Mar-2016 01:13:01 UTC] PHP Fatal error:  Cannot re-assign $this in /home/ubuntu/workspace/labs/wk10/MadLibs.php on line 153
+[29-Mar-2016 01:13:01 UTC] PHP Stack trace:
+[29-Mar-2016 01:13:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk10/mad-lib.php:0
+[29-Mar-2016 01:31:47 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/labs/wk10/MadLibs.php on line 120
+[29-Mar-2016 01:31:47 UTC] PHP Stack trace:
+[29-Mar-2016 01:31:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk10/mad-lib.php:0
+[29-Mar-2016 01:31:47 UTC] PHP   2. MadLibs->storyFetch() /home/ubuntu/workspace/labs/wk10/mad-lib.php:157
+[29-Mar-2016 01:31:47 UTC] PHP   3. MadLibs->dbClose() /home/ubuntu/workspace/labs/wk10/MadLibs.php:157
+[29-Mar-2016 01:31:47 UTC] PHP   4. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk10/MadLibs.php:120
+[29-Mar-2016 01:32:47 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/labs/wk10/MadLibs.php on line 120
+[29-Mar-2016 01:32:47 UTC] PHP Stack trace:
+[29-Mar-2016 01:32:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk10/mad-lib.php:0
+[29-Mar-2016 01:32:47 UTC] PHP   2. MadLibs->storyFetch() /home/ubuntu/workspace/labs/wk10/mad-lib.php:157
+[29-Mar-2016 01:32:47 UTC] PHP   3. MadLibs->dbClose() /home/ubuntu/workspace/labs/wk10/MadLibs.php:158
+[29-Mar-2016 01:32:47 UTC] PHP   4. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk10/MadLibs.php:120
+[29-Mar-2016 01:33:36 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/labs/wk10/MadLibs.php on line 120
+[29-Mar-2016 01:33:36 UTC] PHP Stack trace:
+[29-Mar-2016 01:33:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk10/mad-lib.php:0
+[29-Mar-2016 01:33:36 UTC] PHP   2. MadLibs->storyFetch() /home/ubuntu/workspace/labs/wk10/mad-lib.php:157
+[29-Mar-2016 01:33:36 UTC] PHP   3. MadLibs->dbClose() /home/ubuntu/workspace/labs/wk10/MadLibs.php:158
+[29-Mar-2016 01:33:36 UTC] PHP   4. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk10/MadLibs.php:120

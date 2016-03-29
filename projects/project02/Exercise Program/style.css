@@ -25,8 +25,34 @@ img.profile {
     background-color: #6CCDFF;
     border: 1px solid black;
     min-height: 100%;
+    padding: 15px;
 }
 
 body {
     background-color: #B6FFBC;
+}
+
+.nav a {
+    background-color: #1E9923;
+    border-radius: 8px;
+    color: black;
+}
+
+a {
+    color: #736405;
+}
+
+a:hover {
+    color: darkred;
+}
+td {
+    padding: 10px;
+}
+th {
+    padding: 8px;
+}
+
+form {
+    border: 1px solid black;
+    padding: 10px;
 }

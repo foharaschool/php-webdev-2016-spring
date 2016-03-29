@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+    <div class="container">
     <h3>Exercise Logger - Log Workout</h3>
 
 <?php
@@ -100,7 +101,7 @@
     } // End of check for form submission
 ?>
 
-    <form enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+    <form class="col-md-4" enctype="multipart/form-data" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <input type="hidden" name="MAX_FILE_SIZE" value="<?php echo MM_MAXFILESIZE; ?>" />
         <fieldset>
             <legend>Workout Information</legend>
@@ -123,5 +124,6 @@
         </fieldset>
         <input type="submit" value="Save Workout" name="submit" />
     </form>
+    </div>
 </body> 
 </html>
