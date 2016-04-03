@@ -49,3 +49,26 @@
 [29-Mar-2016 01:33:36 UTC] PHP   2. MadLibs->storyFetch() /home/ubuntu/workspace/labs/wk10/mad-lib.php:157
 [29-Mar-2016 01:33:36 UTC] PHP   3. MadLibs->dbClose() /home/ubuntu/workspace/labs/wk10/MadLibs.php:158
 [29-Mar-2016 01:33:36 UTC] PHP   4. mysqli_close(*uninitialized*) /home/ubuntu/workspace/labs/wk10/MadLibs.php:120
+[03-Apr-2016 16:12:32 UTC] PHP Fatal error:  Access level to Tools::$prod_type must be protected (as in class Product) or weaker in /home/ubuntu/workspace/labs/wk11/Tools.php on line 0
+[03-Apr-2016 16:12:32 UTC] PHP Stack trace:
+[03-Apr-2016 16:12:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk11/addProduct.php:0
+[03-Apr-2016 17:30:15 UTC] PHP Fatal error:  Class 'gen' not found in /home/ubuntu/workspace/labs/wk11/addProduct.php on line 30
+[03-Apr-2016 17:30:15 UTC] PHP Stack trace:
+[03-Apr-2016 17:30:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk11/addProduct.php:0
+[03-Apr-2016 17:42:28 UTC] PHP Fatal error:  Call to undefined function setSharedInsert() in /home/ubuntu/workspace/labs/wk11/Product.php on line 47
+[03-Apr-2016 17:42:28 UTC] PHP Stack trace:
+[03-Apr-2016 17:42:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk11/addProduct.php:0
+[03-Apr-2016 17:42:28 UTC] PHP   2. Product->submit() /home/ubuntu/workspace/labs/wk11/addProduct.php:33
+[03-Apr-2016 18:01:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/labs/wk11/Product.php on line 50
+[03-Apr-2016 18:01:39 UTC] PHP Stack trace:
+[03-Apr-2016 18:01:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk11/addProduct.php:0
+[03-Apr-2016 18:01:39 UTC] PHP   2. Product->submit() /home/ubuntu/workspace/labs/wk11/addProduct.php:33
+[03-Apr-2016 18:01:39 UTC] PHP   3. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk11/Product.php:50
+[03-Apr-2016 18:13:28 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/labs/wk11/Product.php on line 54
+[03-Apr-2016 18:13:28 UTC] PHP Stack trace:
+[03-Apr-2016 18:13:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk11/addProduct.php:0
+[03-Apr-2016 18:13:28 UTC] PHP   2. Product->submit() /home/ubuntu/workspace/labs/wk11/addProduct.php:33
+[03-Apr-2016 18:13:28 UTC] PHP   3. mysqli_error(*uninitialized*) /home/ubuntu/workspace/labs/wk11/Product.php:54
+[03-Apr-2016 18:47:06 UTC] PHP Fatal error:  Class 'Electroinics' not found in /home/ubuntu/workspace/labs/wk11/addProduct.php on line 30
+[03-Apr-2016 18:47:06 UTC] PHP Stack trace:
+[03-Apr-2016 18:47:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk11/addProduct.php:0
