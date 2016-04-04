@@ -16,7 +16,6 @@
 <body>
 <?php
     // External Code
-    require_once('connectvars.php');
     require_once('Product.php');
     require_once('Tools.php');
     require_once('Electronics.php');
