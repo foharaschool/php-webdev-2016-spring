@@ -30,7 +30,7 @@
         // Instantiate neccessary class
         $prod = new $prod_type();
         
-        // Submit form
+        // Submit form, submit returns success boolean
         $result = $prod->submit();
         
         // Output form again if there is an error in submitting
@@ -77,39 +77,39 @@
             </div>
             </div>
             <div class="row">
-            <div class="form-group col-md-12 tools hidden">
-                <label for="tool-shipper">Choose Shipping Carrier:</label>
-                <select class="form-control" name="tool-shipper" id="tool-shipper">
-                    <option value="">Select One</option>
-                    <option value="ups">UPS</option>
-                    <option value="fedex">FedEx</option>
-                    <option value="usps">USPS</option>
-                </select>
-                <label for="tool-weight">Weight of Tools:</label>
-                <div class="input-group">
-                    <input type="text" class="form-control" name="tool-weight" id="tool-weight" placeholder="Weight" aria-describedby="lbs">
-                    <span class="input-group-addon" id="lbs">lbs.</span>
+                <div class="form-group col-md-12 tools hidden">
+                    <label for="tool-shipper">Choose Shipping Carrier:</label>
+                    <select class="form-control" name="tool-shipper" id="tool-shipper">
+                        <option value="">Select One</option>
+                        <option value="ups">UPS</option>
+                        <option value="fedex">FedEx</option>
+                        <option value="usps">USPS</option>
+                    </select>
+                    <label for="tool-weight">Weight of Tools:</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="tool-weight" id="tool-weight" placeholder="Weight" aria-describedby="lbs">
+                        <span class="input-group-addon" id="lbs">lbs.</span>
+                    </div>
                 </div>
             </div>
-            </div>
             <div class="row">
-            <div class="form-group col-md-12 electronics hidden">
-                <label for="recycle-select">Are These Electronics Recyclable?:</label>
-                <div id="recycle-select">
-                    <label class="radio-inline">
-                        <input type="radio" name="recyclable" id="yes" value="y">Yes
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" name="recyclable" id="no" value="n">No
-                    </label>
+                <div class="form-group col-md-12 electronics hidden">
+                    <label for="recycle-select">Are These Electronics Recyclable?:</label>
+                    <div id="recycle-select">
+                        <label class="radio-inline">
+                            <input type="radio" name="recyclable" id="yes" value="y">Yes
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="recyclable" id="no" value="n">No
+                        </label>
+                    </div>
                 </div>
             </div>
-            </div>
             <div class="row">
-            <div class="form-group col-md-12 submit hidden">
-                <button type="submit" name="submit" value="Submit" class="btn btn-primary">Submit</button>
-                <button type="reset" name="clear" id="clear" value="Clear" class="btn btn-default">Clear</button>
-            </div>
+                <div class="form-group col-md-12 submit hidden">
+                    <button type="submit" name="submit" value="Submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" name="clear" id="clear" value="Clear" class="btn btn-default">Clear</button>
+                </div>
             </div>
         </form>
         
