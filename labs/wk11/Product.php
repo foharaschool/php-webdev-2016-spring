@@ -47,7 +47,6 @@
             $this->setSharedInsert();
             
             // Run insert
-            echo $this->query;
             mysqli_query($dbc, $this->query)
                     or die('There was a problem running the insert query');
                 

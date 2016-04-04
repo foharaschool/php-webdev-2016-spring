@@ -1,0 +1,24 @@
+body {
+    background-color: #A2A5FF;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+form {
+    margin-top: 50px;
+    background-color: #41BE41;
+    padding: 15px 30px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+a {
+    color: #006B00;
+}
+
+a:hover {
+    color: #003D00;
+}
