@@ -31,3 +31,13 @@
 [13-Feb-2016 19:58:36 UTC] PHP   2. mysqli_query(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/projects/project01/mad-lib.php:133
 [13-Feb-2016 20:40:31 UTC] PHP Parse error:  syntax error, unexpected 'date' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/projects/project01/mad-lib.php on line 138
 [13-Feb-2016 21:08:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/projects/project01/mad-lib.php on line 143
+[10-Apr-2016 20:35:39 UTC] PHP Warning:  require_once(connectvars.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/projects/project03/index.php on line 17
+[10-Apr-2016 20:35:39 UTC] PHP Stack trace:
+[10-Apr-2016 20:35:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project03/index.php:0
+[10-Apr-2016 20:35:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/projects/project03/index.php on line 17
+[10-Apr-2016 20:35:39 UTC] PHP Stack trace:
+[10-Apr-2016 20:35:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project03/index.php:0
+[10-Apr-2016 23:58:05 UTC] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/projects/project03/admin3.php on line 38
+[10-Apr-2016 23:58:05 UTC] PHP Stack trace:
+[10-Apr-2016 23:58:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project03/admin3.php:0
+[10-Apr-2016 23:58:05 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/projects/project03/admin3.php:38
