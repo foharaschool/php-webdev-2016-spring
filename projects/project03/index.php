@@ -1,3 +1,11 @@
+<?php
+    // Start the session
+    session_start();
+    
+    // Kill any active sessions
+    session_unset();
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -18,40 +26,34 @@
 ?>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Project 3</a>
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Project 3</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <form class="navbar-form navbar-right" action="authorize3.php" method="post">
+                    <div class="form-group">
+                        <input type="text" placeholder="username" class="form-control" name="username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password" class="form-control" name="password">
+                    </div>
+                    <button type="submit" class="btn btn-success">Sign in</button>
+                </form>
+            </div><!--/.navbar-collapse -->
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!-- Main jumbotron -->
     <div class="jumbotron">
-      <div class="container">
-        <h1>Our Blog</h1>
-      </div>
+        <div class="container">
+            <h1>Our Blog</h1>
+        </div>
     </div>
     <div class="container">
-        <section class="entries col-md-8">
-            <div class="entry">
-                <h2>Test Entry</h2>
-                <p> This is a blog.</p>
-            </div>
-        </section>
-        <section class="col-md-8 stories">
+        <section class="col-md-8 entries">
             <?php
-                // Print out all stories, in reverse order
+                // Print out all posts, in reverse order
                 $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
                         or die('There was a problem connecting to the server');
                 

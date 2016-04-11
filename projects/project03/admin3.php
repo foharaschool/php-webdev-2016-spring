@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -16,8 +19,19 @@
 <?php
     require_once('connectvars3.php');
     
+    // Set timezone for date operations
+    date_default_timezone_set("America/Chicago");
+    
+    // Make sure the user is logged in before going any further.
+    if(($_SESSION['valid'] != 1)) {
+        echo '<p class="login">Please <a href="index.php">log in</a> to access this page.</p>';
+        exit();
+    }
+    
     // Collect inputs from form if submitted
     if(isset($_POST['submit'])) {
+        // Reset success message
+        $success = '';
         
         // Initialize POST variables
         $title = $_POST['title'];
@@ -26,6 +40,8 @@
         
         // Basic validation
         if(!empty($title) && !empty($date) && !empty($post)) {
+            // Write success message
+            $success = '<strong><p>Blog created</p></strong>';
             // insert blog
             $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
                     or die('There was a problem connecting to the server');
@@ -48,10 +64,10 @@
     <div class="container">
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="navbar-header col-md-2 col-md-offset-1">
-                <a class="navbar-brand" href="#">Project 3</a>
+                <a class="navbar-brand" href="index.php">Project 3</a>
             </div>
             <div class="navbar-header col-md-2 col-md-offset-7">
-                <a class="navbar-brand" title="Log Out" href="#">Welcome, Admin!</a>
+                <a class="navbar-brand" title="Log Out" href="index.php">Logout</a>
             </div>
         </nav>
         <section class="entry topfix">
@@ -60,7 +76,7 @@
                 <div class="form-group row">
                     <div class="col-md-6">
                         <label for="title">Blog Title:</label>
-                        <input type="text" class="form-control" placeholder="Title" name="title" value="<?= $person_name ?>">
+                        <input type="text" class="form-control" placeholder="Title" name="title">
                     </div>
                 </div>
                 <div class="form-group row">
@@ -83,4 +99,15 @@
                 </div>
             </form>
         </section>
+        <?php
+            if(isset($success)) {
+        ?>
+        <section class="success">
+            <?php
+                echo $success;
+            ?>
+        </section>
+        <?php
+            }
+        ?>
     </div>

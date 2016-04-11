@@ -1,3 +1,20 @@
+body {
+    background-color: #D6D6D6;
+}
+
 .topfix {
     margin-top: 100px;
 }
+
+.post {
+    background-color: #8FC1D6;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.entries {
+    margin-bottom: 50px;
+}
+
