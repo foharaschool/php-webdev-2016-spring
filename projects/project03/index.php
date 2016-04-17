@@ -57,15 +57,16 @@
                 $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
                         or die('There was a problem connecting to the server');
                 
+                date_default_timezone_set("America/Chicago");
                 $now = time();
-                $endofday = strtotime("midnight", $now) - 1;
-                
+                $endofday = strtotime("midnight", (strtotime("tomorrow", $now))) - 1;
+                echo $endofday;
                 $query = "SELECT * FROM blogs WHERE date <= $endofday ORDER BY date DESC, id DESC";
                 
                 $result = mysqli_query($dbc, $query)
                         or die('Error querying stories from database');
         
-                date_default_timezone_set("America/Chicago");
+                
                 while($row = mysqli_fetch_array($result)) {
                     $fetched_story = $row['post'];
                     $timestamp = $row['date'];

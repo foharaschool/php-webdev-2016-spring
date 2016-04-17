@@ -1,0 +1,4 @@
+[11-Apr-2016 23:16:06 UTC] PHP Warning:  preg_match(): Compilation failed: missing terminating ] for character class at offset 56 in /home/ubuntu/workspace/labs/wk12/ch12/riskyregistration/registration.php on line 57
+[11-Apr-2016 23:16:07 UTC] PHP Stack trace:
+[11-Apr-2016 23:16:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk12/ch12/riskyregistration/registration.php:0
+[11-Apr-2016 23:16:07 UTC] PHP   2. preg_match(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/wk12/ch12/riskyregistration/registration.php:57
