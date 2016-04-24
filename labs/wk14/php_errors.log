@@ -1,0 +1,56 @@
+[24-Apr-2016 17:48:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/labs/wk14/aliens/index.php on line 28
+[24-Apr-2016 17:48:35 UTC] PHP Stack trace:
+[24-Apr-2016 17:48:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/index.php:0
+[24-Apr-2016 17:48:35 UTC] PHP   2. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/labs/wk14/aliens/index.php:28
+[24-Apr-2016 17:48:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/labs/wk14/aliens/index.php on line 47
+[24-Apr-2016 17:48:35 UTC] PHP Stack trace:
+[24-Apr-2016 17:48:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/index.php:0
+[24-Apr-2016 17:48:35 UTC] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/labs/wk14/aliens/index.php:47
+[24-Apr-2016 17:52:30 UTC] PHP Warning:  require_once(connectvars.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:52:30 UTC] PHP Stack trace:
+[24-Apr-2016 17:52:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[24-Apr-2016 17:52:30 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:52:30 UTC] PHP Stack trace:
+[24-Apr-2016 17:52:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[24-Apr-2016 17:53:35 UTC] PHP Warning:  require_once(connectvars.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:53:35 UTC] PHP Stack trace:
+[24-Apr-2016 17:53:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[24-Apr-2016 17:53:35 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:53:35 UTC] PHP Stack trace:
+[24-Apr-2016 17:53:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[24-Apr-2016 17:54:00 UTC] PHP Warning:  require_once(connectvars.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:54:00 UTC] PHP Stack trace:
+[24-Apr-2016 17:54:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[24-Apr-2016 17:54:00 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:54:00 UTC] PHP Stack trace:
+[24-Apr-2016 17:54:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[24-Apr-2016 17:54:00 UTC] PHP Warning:  require_once(connectvars.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:54:00 UTC] PHP Stack trace:
+[24-Apr-2016 17:54:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[24-Apr-2016 17:54:00 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:54:00 UTC] PHP Stack trace:
+[24-Apr-2016 17:54:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[24-Apr-2016 17:54:03 UTC] PHP Warning:  require_once(connectvars.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:54:03 UTC] PHP Stack trace:
+[24-Apr-2016 17:54:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[24-Apr-2016 17:54:03 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:54:03 UTC] PHP Stack trace:
+[24-Apr-2016 17:54:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[24-Apr-2016 17:55:19 UTC] PHP Warning:  require_once(connectvars.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:55:19 UTC] PHP Stack trace:
+[24-Apr-2016 17:55:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[24-Apr-2016 17:55:19 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:55:19 UTC] PHP Stack trace:
+[24-Apr-2016 17:55:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[24-Apr-2016 17:55:26 UTC] PHP Warning:  require_once(connectvars.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:55:26 UTC] PHP Stack trace:
+[24-Apr-2016 17:55:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[24-Apr-2016 17:55:26 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:55:26 UTC] PHP Stack trace:
+[24-Apr-2016 17:55:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[24-Apr-2016 17:55:43 UTC] PHP Warning:  require_once(connectvars.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:55:43 UTC] PHP Stack trace:
+[24-Apr-2016 17:55:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[24-Apr-2016 17:55:43 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
+[24-Apr-2016 17:55:43 UTC] PHP Stack trace:
+[24-Apr-2016 17:55:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
