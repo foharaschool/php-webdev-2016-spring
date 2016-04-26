@@ -54,3 +54,18 @@
 [24-Apr-2016 17:55:43 UTC] PHP Fatal error:  require_once(): Failed opening required 'connectvars.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php on line 11
 [24-Apr-2016 17:55:43 UTC] PHP Stack trace:
 [24-Apr-2016 17:55:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/aliens/newsfeed.php:0
+[25-Apr-2016 23:39:49 UTC] PHP Catchable fatal error:  Object of class GuzzleHttp\Psr7\Response could not be converted to string in /home/ubuntu/workspace/labs/wk14/inClass/index.php on line 35
+[25-Apr-2016 23:39:49 UTC] PHP Stack trace:
+[25-Apr-2016 23:39:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/inClass/index.php:0
+[25-Apr-2016 23:41:44 UTC] PHP Catchable fatal error:  Object of class GuzzleHttp\Psr7\Response could not be converted to string in /home/ubuntu/workspace/labs/wk14/inClass/index.php on line 35
+[25-Apr-2016 23:41:44 UTC] PHP Stack trace:
+[25-Apr-2016 23:41:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/inClass/index.php:0
+[25-Apr-2016 23:41:48 UTC] PHP Catchable fatal error:  Object of class GuzzleHttp\Psr7\Response could not be converted to string in /home/ubuntu/workspace/labs/wk14/inClass/index.php on line 35
+[25-Apr-2016 23:41:49 UTC] PHP Stack trace:
+[25-Apr-2016 23:41:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/inClass/index.php:0
+[25-Apr-2016 23:45:57 UTC] PHP Catchable fatal error:  Object of class GuzzleHttp\Psr7\Response could not be converted to string in /home/ubuntu/workspace/labs/wk14/inClass/index.php on line 35
+[25-Apr-2016 23:45:57 UTC] PHP Stack trace:
+[25-Apr-2016 23:45:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/inClass/index.php:0
+[25-Apr-2016 23:51:51 UTC] PHP Catchable fatal error:  Object of class GuzzleHttp\Psr7\Response could not be converted to string in /home/ubuntu/workspace/labs/wk14/inClass/index.php on line 35
+[25-Apr-2016 23:51:51 UTC] PHP Stack trace:
+[25-Apr-2016 23:51:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/wk14/inClass/index.php:0
