@@ -30,3 +30,25 @@ Deliverable increments:
 4. Prioritization of Backlog: create ranking field that allows many re-ranks
 5. Github integration to link projects to their respective repo
 6. Drag and drop backlog prioritization in admin view
+
+
+    
+Project 4 high level design
+
+// Project Backlog
+// Confirm Desired fields
+// Build front end backlog item form
+// Design and create DB and projects table
+// Test Correct Database insertion
+// Add Backlog view to index
+// Add Page Security and create login
+
+// Current Project
+// Add status table to DB and link to projects table
+// Add Current project fields to DB
+// Add current project selector to admin ui
+// Create and Display Current Project View on index
+
+// Retrospective
+// Create and link Retrospective table in DB
+// Add retrospective ui to admin page or as a fired page when complete button clicked

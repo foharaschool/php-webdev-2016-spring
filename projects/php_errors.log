@@ -58,3 +58,8 @@
 [11-Apr-2016 02:31:45 UTC] PHP Stack trace:
 [11-Apr-2016 02:31:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project03/index.php:0
 [11-Apr-2016 02:31:45 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/projects/project03/index.php:3
+[26-Apr-2016 21:47:30 America/Chicago] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/ubuntu/workspace/projects/project04/index.php on line 66
+[26-Apr-2016 21:47:30 America/Chicago] PHP Stack trace:
+[26-Apr-2016 21:47:30 America/Chicago] PHP   1. {main}() /home/ubuntu/workspace/projects/project04/index.php:0
+[26-Apr-2016 21:47:30 America/Chicago] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/projects/project04/index.php:66
+[27-Apr-2016 03:01:53 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/ubuntu/workspace/projects/project04/index.php on line 65
