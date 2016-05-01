@@ -63,3 +63,24 @@
 [26-Apr-2016 21:47:30 America/Chicago] PHP   1. {main}() /home/ubuntu/workspace/projects/project04/index.php:0
 [26-Apr-2016 21:47:30 America/Chicago] PHP   2. mysqli_close(*uninitialized*) /home/ubuntu/workspace/projects/project04/index.php:66
 [27-Apr-2016 03:01:53 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/ubuntu/workspace/projects/project04/index.php on line 65
+[30-Apr-2016 11:03:47 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/projects/project04/index.php on line 89
+[30-Apr-2016 11:03:47 America/Chicago] PHP Stack trace:
+[30-Apr-2016 11:03:47 America/Chicago] PHP   1. {main}() /home/ubuntu/workspace/projects/project04/index.php:0
+[30-Apr-2016 11:03:47 America/Chicago] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/projects/project04/index.php:89
+[30-Apr-2016 12:28:44 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/projects/project04/admin.php on line 109
+[30-Apr-2016 12:28:44 America/Chicago] PHP Stack trace:
+[30-Apr-2016 12:28:44 America/Chicago] PHP   1. {main}() /home/ubuntu/workspace/projects/project04/admin.php:0
+[30-Apr-2016 12:28:44 America/Chicago] PHP   2. mysqli_fetch_array(*uninitialized*) /home/ubuntu/workspace/projects/project04/admin.php:109
+[30-Apr-2016 19:58:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/projects/project04/index.php on line 64
+[30-Apr-2016 19:58:47 UTC] PHP Stack trace:
+[30-Apr-2016 19:58:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project04/index.php:0
+[30-Apr-2016 19:58:47 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/projects/project04/index.php:64
+[30-Apr-2016 20:16:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/projects/project04/index.php on line 106
+[30-Apr-2016 20:16:51 UTC] PHP Stack trace:
+[30-Apr-2016 20:16:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project04/index.php:0
+[30-Apr-2016 20:16:51 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/projects/project04/index.php:106
+[30-Apr-2016 20:18:55 UTC] PHP Parse error:  syntax error, unexpected '$proj_id' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/projects/project04/index.php on line 170
+[30-Apr-2016 22:02:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/projects/project04/index.php on line 142
+[30-Apr-2016 22:02:34 UTC] PHP Stack trace:
+[30-Apr-2016 22:02:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/project04/index.php:0
+[30-Apr-2016 22:02:34 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/projects/project04/index.php:142

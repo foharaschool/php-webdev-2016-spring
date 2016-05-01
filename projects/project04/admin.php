@@ -1,63 +1,29 @@
 <?php
-    /*********************************************************/
-    // Project 4 high level design
-    /*********************************************************/
-    // Project Backlog
-    // Confirm Desired fields
-    // Build front end backlog item form
-    // Design and create DB and projects table
-    // Test Correct Database insertion
-    // Add Backlog view to index
-    // Add Page Security and create login
+     session_start();
+     
+    // Username and password for authentication
+    $username = 'p4';
+    $password = 'p4';
     
-    // Current Project
-    // Add status table to DB and link to projects table
-    // Add Current project fields to DB
-    // Add current project selector to admin ui
-    // Create and Display Current Project View on index
-    
-    // Retrospective
-    // Create and link Retrospective table in DB
-    // Add retrospective ui to admin page or as a fired page when complete button clicked
-    
-    // include scripts
-    require_once('connectvars4.php');
-    
-    // Admin global variables
-    
-    
-    // Confirm Submit
-    if(isset($_POST['submit-new'])) {
-        // empty messages
-        $success = '';
-        $failure = '';
+    if(isset($_POST['submit'])) {
+        // Set Session Variables
+        $_SESSION['username'] = trim($_POST['username']);
+        $_SESSION['password'] = trim($_POST['pwd']);
+        $_SESSION['valid'] = 0;
         
-        // Confirm fields not empty
-        if(!empty($_POST['project-name']) && !empty($_POST['description'])) {
-            
-            // Collect POST
-            $proj_name = $_POST['project-name'];
-            $description = $_POST['description'];
-            $created_time = time();
-            
-            // Insert new project into DB
-            $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
-                    or die('There was a problem connecting to the server');
-                    
-            $query = "INSERT INTO Projects(name, description, createdDate) VALUES ('$proj_name', '$description', $created_time)";
-            
-            $result = mysqli_query($dbc, $query)
-                    or die('There was a problem running the insert query');
-                    
-            mysqli_close($dbc);
-            
-            // Create success message
-            $success = "New project, $proj_name successfully submitted";
-        } else {
-            $failure = 'Missing information.  Please fill in all fields';
+        
+        if((!isset($_SESSION['username']) || !isset($_SESSION['password'])
+                || ($_SESSION['username'] != $username) || ($_SESSION['password'] != $password))) {
+            // Username / password incorrect or not delivered; Output error
+            $failure = 'Incorrect Username/Password';
+        }
+        
+        if(($_SESSION['username'] == $username) && ($_SESSION['password'] == $password)) {
+            $_SESSION['valid'] = 1;
+            echo 'I made it into the you have the correct password section';
+            header("Location: https://php-mysql-2016-spring-foharaschool.c9users.io/projects/project04/");
         }
     }
-    
 ?>
 <!DOCTYPE html>
 <html>
@@ -70,33 +36,28 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- Bootstrap Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <!-- Front end project backlog form -->
     <div class="container">
-        <section class="newProject col-md-8 col-md-offset-2">
-            <h1>New Project</h1>
-            <form role="form" name="form01" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
+        <div class="col-md-4 col-md-offset-4 login">
+            <form class="form-signin" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
+                <h2 class="form-signin-heading">Please sign in</h2>
                 <div class="form-group">
-                    <label for="project-name">Project Name:</label>
-                    <input type="text" class="form-control" placeholder="Project Name" name="project-name">
+                    <label for="username" class="sr-only">Email address</label>
+                    <input type="username" name="username" class="form-control" placeholder="Username" required autofocus>
                 </div>
                 <div class="form-group">
-                    <label for="description">Project Description:</label>
-                    <textarea class="form-control" rows="5" name="description" placeholder="Project Description"></textarea>
+                    <label for="pwd" class="sr-only">Password</label>
+                    <input type="password" name="pwd" class="form-control" placeholder="Password" required>
                 </div>
-                <div class="form-group">
-                    <button type="submit" name="submit-new" value="Submit" class="btn btn-primary">Submit</button>
-                    <button type="reset" name="clear" value="Clear" class="btn btn-default">Clear</button>
-                </div>
+                <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">Sign in</button>
             </form>
-            
-        </section>
-        <section class="success-message col-md-8 col-md-offset-2">
-            <h3><?= $success ?></h3>
-            <h3><?= $failure ?></h3>
-        </section>
-    </div>
+            <div class="message">
+                <h3 class="failure"><?= $failure ?></h3>
+            </div>
+        </div>
+    </div> <!-- /container -->
 </body>
 </html>

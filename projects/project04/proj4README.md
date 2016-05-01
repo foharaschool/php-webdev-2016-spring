@@ -41,7 +41,7 @@ Project 4 high level design
 // Design and create DB and projects table
 // Test Correct Database insertion
 // Add Backlog view to index
-// Add Page Security and create login
+// Add Page Security and create login 
 
 // Current Project
 // Add status table to DB and link to projects table

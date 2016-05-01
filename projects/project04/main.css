@@ -1,0 +1,19 @@
+.failure {
+    color: red;
+}
+
+.login {
+    margin-top: 8%;
+}
+
+.logged-in {
+    margin-top: 50px;
+}
+
+body {
+    background-color: #F8FFE5;
+}
+
+section {
+    margin-bottom: 50px;
+}
